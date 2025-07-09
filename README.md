@@ -14,7 +14,7 @@ This project is an interactive Streamlit app designed to evaluate and rank PDF p
 
 ## How to Run
 Run the Streamlit app with:
-```
+```bash
 python -m streamlit run app.py
 ```
 
@@ -35,25 +35,32 @@ ai-based-proposal-evaluation-assistant/
 ├── db.py                   # SQLite API key management
 ├── weights_config.json     # JSON with cost/tech/past weight floats
 ├── requirements.txt
-├── proposals/            # Folder for sample or uploaded PDFs
+├── proposals/              # Folder for sample or uploaded PDFs
 │   └── proposal1.pdf
 │   └── proposal2.pdf
 ├── outputs/
 │   ├── ranked_output.xlsx
 │   └── ranked_output.json
+├── tests/                  # Unit tests (if included)
+├── api_key_store.db        # Stored Gemini API key (SQLite)
+├── __pycache__/            # Python cache
+├── .gitignore
 └── README.md
 ```
 
-## Screenshots
+## Screenshots (Full View)
 
-### Main Upload and API Key Sidebar
-![Main Upload and API Key Sidebar](Screenshot (8).png)
+### 📥 Main Upload and API Key Sidebar
+<img src="Screenshot (8).png" alt="Main Upload and API Key Sidebar" width="100%">
 
-### Ranked Results and Visualizations
-![Ranked Results and Visualizations](Screenshot (9).png)
+### 📊 Ranked Results and Visualizations
+<img src="Screenshot (9).png" alt="Ranked Results and Visualizations" width="100%">
 
-### Gemini Explanations and Insights
-![Gemini Explanations and Insights](Screenshot (10).png)
+### 🤖 Gemini Explanations and Insights - Part 1
+<img src="Screenshot (10).png" alt="Gemini Explanations and Insights Part 1" width="100%">
+
+### 📈 Gemini Explanations and Insights - Part 2
+<img src="Screenshot (11).png" alt="Gemini Explanations and Insights Part 2" width="100%">
 
 ## Notes
 - Ensure you have an active internet connection to use Gemini API features.
